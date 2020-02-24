@@ -1,0 +1,98 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;  
+}
+
+li {
+  display: inline-block;
+}
+
+
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  .grid-item-container {
+    width: 100%;
+  }
+}
+
+.app-header {
+  background-color: #282c34;      
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-main {
+  background-color: #282c34;      
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+  background-color: antiquewhite
+}
+
+.app-link {
+  color: #61dafb;
+}
+
+.top-menu-container {  
+  align-items: center;
+  justify-content: center;
+  display: flex;  
+}
+
+.slide-arrow {
+  font: normal normal normal 14px/1 FontAwesome;
+  cursor: pointer;
+  font-size: 54px;
+  color: silver;
+  font-weight: bold;  
+}
+
+.section-item-container {
+  padding: 5px; 
+  margin: 0px 15px; 
+  cursor: pointer;
+}
+
+.section-selected {
+  background-color: aqua;
+} 
+
+.section-item-container img {
+  width: 95px;  
+}
+
+.content-grid-container {    
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  padding: 50px; 
+  justify-items: center;
+}
+
+.grit-item-container {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.1em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
